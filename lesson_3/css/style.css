@@ -1,0 +1,53 @@
+div {
+	color: rebeccapurple; /* Обращение ко всем DIV на странице */
+}
+
+.bottom-link a  {
+	color: steelblue; /* Обращение ко всем тегам "а" которые находится
+	 в обьекте с классом bottom-link. */
+}
+
+.top-link a {
+	color: rgb(199, 90, 205);
+}
+
+.footer-title.bottom-title{
+	color: brown; /* Обращение ко обьекту который имеет одновременно 
+	два класса. footer-title и bottom-title  */
+}
+
+.bottom-block .bottom-block-text {
+	color: tomato; /* Обращение ко всем обьектам с классом 
+	 bottom-block-text, которые находятся в обьекте с классом bottom-block. */
+}
+.header-title-text p{
+	color: blue; /* Обращение ко всем тегам P которые имеют родителя с 
+	классом header-title-text. */
+}
+
+.header-title-text > p{
+	color: rgb(100, 8, 8); /*Обращение ко всем тегам P которые имеют
+	родителя с классом header-title-text и имеют первый уровень вложения */
+}
+
+.header-title-text ~ p{
+	color: rgb(0, 225, 255); /* Обращение ко всем тегам P которые 
+	находятся после 
+	обьекта с классом header-title-text и  имеют тот же уровень вложения. */
+}
+
+.header-title-text + p{
+	color: rgb(8, 100, 8); /* Обращение ко первому тегу P который
+	 находятся сразу после обьекта с классом header-title-text и имеют 
+	 первый уровень вложения */
+}
+
+span{
+	color: rgb(188, 157, 16); /* обращение ко всем тегам SPAN на 
+	странице */
+}
+
+h1,h2,h3,h4,h5,h6{
+	color: yellowgreen; /* Применение стилей ко всем заголовкам 
+	на странице */
+}

@@ -1,0 +1,38 @@
+body{
+	font-family: "Larsseit";
+	font-weight: 500;
+	font-style: normal;
+	font-size: 18px;
+}
+
+.top-menu-list ol li a{
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 12px;
+}
+
+.down-link, .top-menu-list ol li .up-link {
+	color: rgb(11, 16, 160);
+	font-family: "Lato";
+	font-weight: 700;
+	font-size: 22px;
+
+}
+
+.top-text p{
+		font-family: "Roboto";
+		font-weight: 400;
+		font-size: 14px;
+}
+
+.top-text > p{
+	color: teal;
+} 
+
+.top-text ~ p{
+	color: rgb(128, 9, 0);
+} 
+
+.top-text + p{
+	color: rgb(128, 119, 0);
+} 

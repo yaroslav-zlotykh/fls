@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap');
+
+
+@font-face {
+	font-family: "EssonnesHeadline";
+	src: url("../fonts/EssonnesHeadline-Thin.woff2") format("woff2"),
+	url("../fonts/EssonnesHeadline-Thin.woff") format("woff");
+	font-display: swap;
+	font-style: normal;
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: "EssonnesHeadline";
+	src: url("../fonts/EssonnesHeadline-Regular.woff2") format("woff2"),
+	url("../fonts/EssonnesHeadline-Regular.woff") format("woff")	;
+	font-display: swap;
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "EssonnesHeadline";
+	src: url("../fonts/EssonnesHeadline-Italic.woff2") format("woff2"),
+	url("../fonts/EssonnesHeadline-Italic.woff") format("woff")	;
+	font-display: swap;
+	font-style: italic;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "EssonnesHeadline";
+	src: url("../fonts/EssonnesHeadline-Bold.woff2") format("woff2"),
+	url("../fonts/EssonnesHeadline-Bold.woff") format("woff")	;
+	font-display: swap;
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Decorlz";
+	src: url("../fonts/Decorlz.woff2") format("woff2"),
+	url("../fonts/Decorlz.woff") format("woff");
+	font-display: swap;
+	font-style: normal;
+	font-weight: 400;
+}
+

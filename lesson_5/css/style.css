@@ -1,0 +1,86 @@
+body{
+	font-family: "Poppins", sans-serif;
+	
+
+}
+.header{
+	margin-bottom: 15px;
+}
+.main{
+	margin-bottom: 15px;
+}
+
+
+.hat-block_image{
+	background-color:violet;
+	padding-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+
+.hat-section{
+	
+	background-color: rgb(0, 229, 255);
+}
+
+.hat-section p{
+	font-weight: 300;
+	padding: 10px 5px;
+	text-indent: 30px;
+	text-decoration: underline;
+	line-height: 1.2;
+	
+}
+
+.page-section p{
+	font-family: "EssonnesHeadline",serif;
+	font-style: oblique;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 1px rgb(25, 30, 182);
+	color: rgb(153, 180, 70);
+	text-indent: 35px;
+	padding: 10px 10px;
+	background-color: rgba(0, 162, 255, 0.345)
+}
+
+.hat-block_link  {
+	background-color: #fff;
+	text-align: center;
+	word-spacing: 40px;
+}
+.hat-block_link a{
+	font-family: "RobotoMono", monospace;
+	color: teal;
+	font-weight: 100;
+	font-size: 14px;
+	text-decoration: underline;
+}
+.hat-block h1{
+	font-family: "Decorlz";
+	text-align: center;
+	color: chocolate;
+	background-color: rgb(255, 255, 255);
+}
+
+.bottom-block h2{
+	font-family: "Decorlz";
+	text-align: center;
+	color: chocolate;
+	background-color: rgb(255, 255, 255);
+}
+.bottom-section_text{
+	padding: 20px;
+}
+.bottom-section_text p{
+	font-family: "EssonnesHeadline",serif;
+	font-style: italic;
+	font-size: 20px;
+	color: rgb(35, 11, 156);
+	text-indent: 35px;
+	padding: 10px 10px;
+	background-color: rgba(140, 255, 0, 0.374);
+	letter-spacing: 5px;
+}
+

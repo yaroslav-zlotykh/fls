@@ -1,0 +1,160 @@
+body{
+	font-family: "Playfair",serif;
+	font-size: 18px;
+	font-weight: 400;
+	font-style: normal;
+	background-color: rgba(0, 234, 255, 0.304);
+}
+a{
+	font-family: "Playfair",serif;
+	font-size: 18px;
+	font-weight: 400;
+	font-style: normal;
+}
+.header{
+	margin-bottom: 15px;
+}
+.hat-title{
+	min-height: 40px;
+	/* background-color: red; */
+	padding: 15px;
+}
+.hat-title h1{
+	color: rgb(255, 64, 0);
+	font-size: 26px;
+	text-align: center;
+	/* background-color: gray; */
+	max-width: 100px;
+	margin: 0 auto;
+	
+}
+
+.hat-image img {
+	max-width: 300px;
+	
+}
+
+.hat-image{
+/* 	background-color: blue; */
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+
+.page-section-text{
+	text-indent: 25px;
+	padding: 10px;
+}
+.section-text-one {
+	border: 2px solid blue;
+	border-radius: 10px 0 20px 0;
+}
+.section-text-two {
+	outline: 2px dashed red;
+	border-radius: 10px 0 20px 0;
+}
+.page-section-text p{
+	
+	margin-bottom: 10px;
+}
+.hat-link-menu{
+	margin: 0 auto;
+	/* background-color: #fff; */
+	width: 600px;
+}
+.hat-link-menu li{
+	box-shadow: 0px 0px 0px 0px;
+	border-radius: 25px ;
+	/* border: 1px solid green; */
+	width: 50px;
+	/* background-color: #18d8b8; */
+	color:rgb(180, 123, 70);
+	display: inline-block;
+}
+.hat-link-menu li:hover{
+	box-shadow: 0px 3px 3px 2px rgb(16, 196, 223);
+}
+.hat-link-menu li img{
+	margin: 0 auto;
+	border-radius: 25px;
+	
+}
+
+.hat-link-menu img{
+	
+	padding: 5px;
+	width: 50px;
+}
+.hat-title-link{
+	/* background-color: red; */
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+.hat-title-link a{
+	padding-left: 20px;
+}
+.hat-title-link a:hover{
+	color: rgb(51, 153, 14);
+}
+
+.bottom-link{
+	/* background-color: red; */
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+.bottom-link a{
+	padding-left: 20px;
+}
+
+
+.bottom-section-text{
+	overflow: scroll;
+	max-height: 200px;
+	text-indent: 25px;
+	padding: 10px;
+}
+
+.bottom-section-text p{
+	margin-bottom: 10px;
+}
+
+.section-text-three{
+	opacity: 0.3;
+}
+.section-text-four{
+	transition: all 0.3s ease 0s;
+	opacity: 0;
+	visibility: hidden;
+}
+.page-section-text:hover .section-text-four{
+	opacity: 1;
+	visibility: visible;
+}
+
+.section-text-five{
+	display: none;
+}
+.circle{
+	text-align: center;
+	/* background-color: green; */
+}
+.circle-block{
+	display: inline-block;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	box-shadow: inset 2px 7px 15px grey;
+	background-color: #ae0b10;
+	transition: all 0.3s ease 0s;
+}
+
+.circle-block:hover{
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	box-shadow: inset 0px 5px 5px rgb(248, 247, 247);
+}

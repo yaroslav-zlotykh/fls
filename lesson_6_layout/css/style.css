@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+body{
+	font-family: "Lato";
+	color: #424551;
+}
+[class*="__container"]{
+	max-width: 1230px;
+	margin: 0 auto;
+}
+
+.header { }
+
+
+.page { }
+
+.footer { }
+
+.page__container { }
+
+.page__title {
+	font-weight: 900;
+	font-size: 46px;
+	color: #1E212C;
+	line-height: 130%;
+	margin-bottom: 26px;
+ }
+
+.page__image { 
+	margin-bottom: 60px;
+	text-align: center;
+	
+}
+.page__image img{
+	max-width: 100%;
+}
+
+.page__main-text {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1E212C;
+	margin-bottom: 24px;
+ }
+
+.page__text {
+margin-bottom: 48px;
+	line-height: 160%;
+ }
+ .page__text p{
+	margin-bottom: 22px;
+ }
+
+.page__blockqoute {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1E212C;
+	margin-bottom: 40px;
+	padding-left: 58px;
+	background: url("../icons/braces.png") 0 0px  no-repeat;
+ }
+
+ .page__text ul{
+margin-bottom: 24px;
+ }
+ .page__text li{
+	margin-bottom: 4px;
+	padding-left: 34px;
+	min-height: 35px;
+	background: url("../icons/check.png") 0 4px / 20px no-repeat;
+	
+ }

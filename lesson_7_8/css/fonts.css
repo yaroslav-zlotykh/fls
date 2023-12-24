@@ -1,0 +1,42 @@
+@font-face {
+	font-family: "Kalnia";
+	src: url("../fonts/Kalnia-Thin.woff2") format("woff2"), url("../fonts/Kalnia-Thin.woff") format("woff");
+	font-weight: 100;
+	font-display: swap;
+	font-style: normal;
+	
+}
+@font-face {
+	font-family: "Kalnia";
+	src: url("../fonts/Kalnia-Light.woff2") format("woff2"), url("../fonts/Kalnia-Light.woff") format("woff");
+	font-weight: 300;
+	font-display: swap;
+	font-style: normal;
+
+}
+@font-face {
+	font-family: "Kalnia";
+	src: url("../fonts/Kalnia-Regular.woff2") format("woff2"), url("../fonts/Kalnia-Regular.woff") format("woff");
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: "Kalnia";
+	src: url("../fonts/Kalnia-Medium.woff2") format("woff2"), url("../fonts/Kalnia-Medium.woff") format("woff");
+	font-weight: 500;
+	font-display: swap;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: "Kalnia";
+	src: url("../fonts/Kalnia-Bold.woff2") format("woff2"), url("../fonts/Kalnia-Bold.woff") format("woff");
+	font-weight: 700;
+	font-display: swap;
+	font-style: normal;
+
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+@font-face {
+	font-family: "SaarSPDemoRegular";
+	src: url("../fonts/SaarSPDemoRegular.woff2") format("woff2") , url("../fonts/SaarSPDemoRegular.woff") format("woff");
+	font-display: swap;
+	
+}
+
+@font-face {
+	font-family: "DancingScript";
+	src: url("../fonts/DancingScript-Regular.woff2") format("woff2"), url("../fonts/DancingScript-Regular.woff") format("woff");
+	font-display: swap;
+}
+@font-face {
+	font-family: "EBGaramond";
+	src: url("../fonts/EBGaramond-Regular.woff2") format("woff2"), url("../fonts/EBGaramond-Regular.woff") format("woff");
+	font-display: swap;
+}
+@font-face {
+	font-family: "SaarSPDemo";
+	src: url("../fonts/SaarSPDemoRegular.woff2") format("woff2"), url("../fonts/SaarSPDemoRegular.woff") format("woff");
+	font-display: swap;
+}
+@font-face {
+	font-family: "SometypeMono";
+	src: url("../fonts/SometypeMono-Regular.woff2") format("woff2"), url("../fonts/SometypeMono-Regular.woff2") format("woff");
+	font-display: swap;
+}

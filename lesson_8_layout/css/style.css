@@ -1,0 +1,108 @@
+
+
+body{
+	max-width: 1230px;
+	font-family: "Lato";
+	color: #424551;
+	line-height: 160%;
+}
+
+.header { }
+.main { }
+.page__container { }
+
+.page__title {
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 130%;
+	color:#1E212C;
+	margin-bottom: 40px;
+ }
+.page__title-text { 
+	width: 600px;
+	margin-bottom: 48px;
+}
+
+.page__list {
+	margin-bottom: 118px;
+}
+.page__list p{ 
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 150%;
+	color: #1E212C;
+	margin-bottom: 24px;
+}
+.page__list-menu  li { 
+	padding-left: 32px;
+	background: url("../icons/check.png") 0 6px / 15px 14px no-repeat;
+	
+	
+}
+.page__list-menu li:not(:last-child){
+	margin-bottom: 4px;
+}
+
+
+.page__list-about {
+	padding-top: 86px;
+ }
+
+
+ .page__list-about p:nth-of-type(1) {
+	color: #1E212C;
+	font-weight: 700;
+	line-height: 150%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+
+ }
+
+ .page__list-about p:nth-of-type(2) {
+	color: #1E212C;
+	font-weight: 900;
+	line-height: 130%;
+	font-size: 46px;
+	margin-bottom: 16px;
+
+ }
+ .page__list-about p:nth-of-type(3) {
+	
+	color:#787A80;
+	line-height: 150%;
+	font-size: 20px;
+	margin-bottom: 32px;
+ }
+.page__about-list{
+	margin-bottom: 32px;
+}
+ .page__about-list ol li:not(:last-child){
+	margin-bottom: 4px;
+ }
+
+.page__about-list ol li:nth-of-type(1) {
+	background: url("../icons/Star.png") 0 5px / 16px no-repeat;
+	padding-left: 32px;
+	font-weight: 700;
+
+}
+
+.page__about-list ol li:nth-of-type(2) {
+	background: url("../icons/Play.png") 0 5px / 16px no-repeat;
+	padding-left: 32px;
+	font-weight: 700;
+}
+.page__about-list ol li:nth-of-type(3) {
+	background: url("../icons/Profile.png") 0 5px / 16px no-repeat;
+	padding-left: 32px;
+	font-weight: 700;
+}
+
+.page__list-about p:nth-of-type(4){
+	max-width: 600px;
+}
+
+ 
+
+.footer { }

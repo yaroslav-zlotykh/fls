@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 10. Методология БЭМ</title>
+</head>
+
+<body>
+	<header class="header"> <!-- БЭМ блок Header-->
+		<div class="hat-container">
+
+			<div class="title-menu"> <!-- БЭМ блок title-menu-->
+				<div class="title-menu__list"> <!-- БЭМ элемент list  БЭМ блока title-menu -->
+					<ol>
+						<li class="title-menu__item"><a href="https://www.google.com/" class="title-menu__link"
+								target="_blank" title="Перейти на Google.com">Google</a></li>
+						<!-- БЭМ элемент item БЭМ блока title-menu -->
+						<li class="title-menu__item"><a href="https://www.microsoft.com" class="title-menu__link"
+								target="_blank" title="Перейти на Microsoft.com">Microsoft</a></li>
+						<!-- БЭМ элемент item БЭМ блока title-menu -->
+						<li class="title-menu__item"><a href="https://uk-ua.facebook.com/" class="title-menu__link"
+								target="_blank" title="Перейти на Facebook">Facebook</a></li>
+						<!-- БЭМ элемент item БЭМ блока title-menu -->
+						<li class="title-menu__item"><a href="https://www.apple.com" class="title-menu__link" target="_blank"
+								title="Перейти на Apple">Apple</a></li>
+						<!-- БЭМ элемент item БЭМ блока title-menu -->
+						<li class="title-menu__item"><a href="https://www.amazon.com/" class="title-menu__link"
+								target="_blank" title="Перейти на Amazon">Amazon</a></li>
+						<!-- БЭМ элемент item БЭМ блока title-menu -->
+						<li class="title-menu__item"><a href="https://www.tesla.com/" class="title-menu__link" target="_blank"
+								title="Перейти на Tesla">Tesla</a></li>
+						<!-- БЭМ элемент item БЭМ блока title-menu -->
+					</ol>
+				</div>
+			</div> <!-- БЭМ блок hat-container -->
+			<div class="hat-container__logo"> <!-- БЭМ элемент logo БЭМ блока hat-container -->
+				<img src="img/Lesson_10.webp" alt="Урок № 10" title="Урок № 10">
+			</div>
+
+
+		</div>
+	</header>
+
+
+	<main class="page">
+		<div class="main-container">
+			<div class="main-menu">
+				<ol class="main-menu__items">
+					<li><a href="https://yaroslav-zlotykh.github.io/fls/lesson_2/" target="_blank"
+							title="Блочно строчные теги"><img src="img/lesson_2.webp" alt=""></a></li>
+
+					<li><a href="https://yaroslav-zlotykh.github.io/fls/lesson_3/" target="_blank"
+							title="CSS - каскадные таблицы стилей. Вложенность.Анатомия CSS."><img src="img/lesson_3.webp"
+								alt=""></a></li>
+
+					<li><a href="https://yaroslav-zlotykh.github.io/fls/lesson_4/" target="_blank"
+							title="Приоритет селекторов.Обнуление стилей.Свойство шрифтов.Подключение шрифтов"><img
+								src="img/lesson_4.webp" alt=""></a></li>
+
+					<li><a href="https://yaroslav-zlotykh.github.io/fls/lesson_5/" target="_blank"
+							title="CSS свойство шрифтов.Свойства текста и блоков.Padding, margin."><img src="img/lesson_5.webp"
+								alt=""></a></li>
+
+					<li><a href="https://yaroslav-zlotykh.github.io/fls/lesson_6/" target="_blank"
+							title="Свойство блоков.Оформление блоков.Padding.Margin.Схлопывание."><img src="img/lesson_6.webp"
+								alt=""></a></li>
+
+					<li><a href="https://yaroslav-zlotykh.github.io/fls/lesson_7_8/" target="_blank"
+							title="Основа построение макетов.Background."><img src="img/lesson_7.webp" alt=""></a></li>
+					<li><a href="https://yaroslav-zlotykh.github.io/fls/lesson_7_8/" target="_blank"
+							title="Основа построение макетов.Background."><img src="img/lesson_8.webp" alt=""></a></li>
+
+			</div>
+			<div class="main-content">
+				<h1 class="main-content__subtitle">Тема урока № 10 - методология БЭМ. БЭМ - Блок-Элемент-Модификатор.</h1>
+			</div>
+			<div class="main-text">
+				<div class="main-text__block">
+					<h1 class="main-text__block-title">"Блок"</h1>
+					<p>Функционально независимый компонент страницы, который может быть повторно использован. В HTML блоки
+						представлены атрибутом class.</p>
+					<ul class="main-text__block-list">
+						<li>Название блока характеризует смысл («что это?» — «меню»: menu, «кнопка»: button), а не состояние
+							(«какой, как выглядит?» — «красный»: red, «большой»: big).</li>
+						<li>Блок не должен влиять на свое окружение, т. е. блоку не следует задавать внешнюю геометрию (в виде
+							отступов, границ, влияющих на размеры) и позиционирование.</li>
+						<li>В CSS по БЭМ также не рекомендуется использовать селекторы по тегам или id</li>
+					</ul>
+					<p>Таким образом обеспечивается независимость, при которой возможно повторное использование или перенос
+						блоков с места на место.</p>
+					<h1 class="main-text__block-title">Пример:</h1>
+					<div class="main-block__block-image">
+						<img src="img/Block-image.webp" alt="" title="Пример БЭМ блока">
+					</div>
+				</div>
+				<div class="main-text__item">
+					<h1 class="main-text__item-title">"Элемент"</h1>
+					<p>Составная часть блока, которая не может использоваться в отрыве от него..</p>
+					<ul class="main-text__item-list">
+						<li>Название элемента характеризует смысл («что это?» — «пункт»: item, «текст»: text), а не состояние
+							(«какой, как выглядит?» — «красный»: red, «большой»: big).</li>
+						<li>Структура полного имени элемента соответствует схеме: имя-блока__имя-элемента. Имя элемента
+							отделяется от имени блока двумя подчеркиваниями (__).</li>
+					</ul>
+					<p>Таким образом обеспечивается независимость, при которой возможно повторное использование или перенос
+						блоков с места на место.</p>
+					<h1 class="main-text__item-title">Пример:</h1>
+					<div class="main-block__item-image">
+						<img src="img/item-image.webp" alt="" title="Пример БЭМ элемента">
+					</div>
+				</div>
+				<div class="main-text__modifier">
+					<h1 class="main-text__modifier-title">"Модификатор"</h1>
+					<p>Cущность, определяющая внешний вид, состояние или поведение блока либо элемента.</p>
+					<ul class="main-text__modifier-list">
+						<li>Название модификатора характеризует внешний вид («какой размер?», «какая тема?» и т. п. —
+							«размер»: size_s, «тема»: theme_islands), состояние («чем отличается от прочих?» — «отключен»:
+							disabled, «фокусированный»: focused) и поведение («как ведет себя?», «как взаимодействует с
+							пользователем?» — «направление»: directions_left-top).</li>
+						<li>Имя модификатора отделяется от имени блока или элемента одним подчеркиванием (_).</li>
+					</ul>
+					<h1 class="main-text__modifier-title">Пример:</h1>
+					<div class="main-block__modifier-image">
+						<img src="img/modifier-image.webp" alt="" title="Пример БЭМ модификатора">
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</main>
+
+
+	<footer class="footer">
+		<div class="bottom-container">
+
+		</div>
+
+	</footer>
+</body>
+
+</html>
